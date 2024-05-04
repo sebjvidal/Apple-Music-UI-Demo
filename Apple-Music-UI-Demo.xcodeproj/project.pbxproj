@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C26028712BDE3ED500A6B398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028702BDE3ED500A6B398 /* AppDelegate.swift */; };
-		C26028732BDE3ED500A6B398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028722BDE3ED500A6B398 /* SceneDelegate.swift */; };
-		C26028752BDE3ED500A6B398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028742BDE3ED500A6B398 /* ViewController.swift */; };
-		C26028782BDE3ED500A6B398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26028762BDE3ED500A6B398 /* Main.storyboard */; };
+		C2304EA52BE67C8100784DB3 /* Foundation+Interpolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2304EA42BE67C8100784DB3 /* Foundation+Interpolate.swift */; };
+		C2304EA82BE67C9900784DB3 /* Comparable+ClampedTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2304EA72BE67C9900784DB3 /* Comparable+ClampedTo.swift */; };
+		C26028712BDE3ED500A6B398 /* AMAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028702BDE3ED500A6B398 /* AMAppDelegate.swift */; };
+		C26028732BDE3ED500A6B398 /* AMSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028722BDE3ED500A6B398 /* AMSceneDelegate.swift */; };
 		C260287A2BDE3ED600A6B398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26028792BDE3ED600A6B398 /* Assets.xcassets */; };
 		C260287D2BDE3ED600A6B398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C260287B2BDE3ED600A6B398 /* LaunchScreen.storyboard */; };
+		C26028852BDE3EEF00A6B398 /* AMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028842BDE3EEF00A6B398 /* AMTabBarController.swift */; };
+		C260288C2BDE423300A6B398 /* AMTabBarController+Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260288B2BDE423300A6B398 /* AMTabBarController+Tab.swift */; };
+		C26028912BDE427400A6B398 /* UIImages+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028902BDE427400A6B398 /* UIImages+Images.swift */; };
+		C26028952BDE43F500A6B398 /* AMHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028942BDE43F500A6B398 /* AMHomeView.swift */; };
+		C26028A52BDE49B100A6B398 /* UIBlurEffect+VariableBlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028A42BDE49B100A6B398 /* UIBlurEffect+VariableBlurEffect.swift */; };
+		C26028A82BDE49CE00A6B398 /* AMTabBarBackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028A72BDE49CE00A6B398 /* AMTabBarBackdropView.swift */; };
+		C26028AB2BDE67DA00A6B398 /* AMToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028AA2BDE67DA00A6B398 /* AMToolbarView.swift */; };
+		C26028AE2BDE6D1400A6B398 /* UIButton.Configuration+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028AD2BDE6D1400A6B398 /* UIButton.Configuration+Toolbar.swift */; };
+		C26028B22BDE6E8300A6B398 /* AMToolbarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028B12BDE6E8300A6B398 /* AMToolbarViewDelegate.swift */; };
+		C26028B62BDE713D00A6B398 /* AMNowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028B52BDE713D00A6B398 /* AMNowPlayingViewController.swift */; };
+		C26028B92BDE74B300A6B398 /* AMGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028B82BDE74B300A6B398 /* AMGradientView.swift */; };
+		C26028BC2BDE760700A6B398 /* AMGripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028BB2BDE760700A6B398 /* AMGripView.swift */; };
+		C26028BF2BDE790600A6B398 /* AMArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028BE2BDE790600A6B398 /* AMArtworkView.swift */; };
+		C26028C22BDE7D0300A6B398 /* AMNowPlayingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028C12BDE7D0300A6B398 /* AMNowPlayingViewControllerDelegate.swift */; };
+		C26028C52BDE7E5900A6B398 /* UIScreen+DisplayCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028C42BDE7E5900A6B398 /* UIScreen+DisplayCornerRadius.swift */; };
+		C26028C82BDE7E6F00A6B398 /* AMNowPlayingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028C72BDE7E6F00A6B398 /* AMNowPlayingAnimationController.swift */; };
+		C26028CB2BDE84A600A6B398 /* Array+FirstOfType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028CA2BDE84A600A6B398 /* Array+FirstOfType.swift */; };
+		C26028CE2BDE872700A6B398 /* AMSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028CD2BDE872700A6B398 /* AMSong.swift */; };
+		C26028D12BDEB66900A6B398 /* AMForYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26028D02BDEB66900A6B398 /* AMForYouView.swift */; };
+		C2BA7BC82BE134F5009AECDF /* AMSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA7BC72BE134F5009AECDF /* AMSliderView.swift */; };
+		C2BA7BCB2BE1394D009AECDF /* AMControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA7BCA2BE1394D009AECDF /* AMControlsView.swift */; };
+		C2BA7BCE2BE1396A009AECDF /* AMControlsView+ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BA7BCD2BE1396A009AECDF /* AMControlsView+ControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2304EA42BE67C8100784DB3 /* Foundation+Interpolate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Interpolate.swift"; sourceTree = "<group>"; };
+		C2304EA72BE67C9900784DB3 /* Comparable+ClampedTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+ClampedTo.swift"; sourceTree = "<group>"; };
 		C260286D2BDE3ED500A6B398 /* Apple-Music-UI-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Music-UI-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C26028702BDE3ED500A6B398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C26028722BDE3ED500A6B398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C26028742BDE3ED500A6B398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C26028772BDE3ED500A6B398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C26028702BDE3ED500A6B398 /* AMAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAppDelegate.swift; sourceTree = "<group>"; };
+		C26028722BDE3ED500A6B398 /* AMSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSceneDelegate.swift; sourceTree = "<group>"; };
 		C26028792BDE3ED600A6B398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C260287C2BDE3ED600A6B398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C260287E2BDE3ED600A6B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26028842BDE3EEF00A6B398 /* AMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTabBarController.swift; sourceTree = "<group>"; };
+		C260288B2BDE423300A6B398 /* AMTabBarController+Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AMTabBarController+Tab.swift"; sourceTree = "<group>"; };
+		C26028902BDE427400A6B398 /* UIImages+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImages+Images.swift"; sourceTree = "<group>"; };
+		C26028942BDE43F500A6B398 /* AMHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMHomeView.swift; sourceTree = "<group>"; };
+		C26028A42BDE49B100A6B398 /* UIBlurEffect+VariableBlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffect+VariableBlurEffect.swift"; sourceTree = "<group>"; };
+		C26028A72BDE49CE00A6B398 /* AMTabBarBackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMTabBarBackdropView.swift; sourceTree = "<group>"; };
+		C26028AA2BDE67DA00A6B398 /* AMToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMToolbarView.swift; sourceTree = "<group>"; };
+		C26028AD2BDE6D1400A6B398 /* UIButton.Configuration+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton.Configuration+Toolbar.swift"; sourceTree = "<group>"; };
+		C26028B12BDE6E8300A6B398 /* AMToolbarViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMToolbarViewDelegate.swift; sourceTree = "<group>"; };
+		C26028B52BDE713D00A6B398 /* AMNowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMNowPlayingViewController.swift; sourceTree = "<group>"; };
+		C26028B82BDE74B300A6B398 /* AMGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGradientView.swift; sourceTree = "<group>"; };
+		C26028BB2BDE760700A6B398 /* AMGripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGripView.swift; sourceTree = "<group>"; };
+		C26028BE2BDE790600A6B398 /* AMArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMArtworkView.swift; sourceTree = "<group>"; };
+		C26028C12BDE7D0300A6B398 /* AMNowPlayingViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMNowPlayingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C26028C42BDE7E5900A6B398 /* UIScreen+DisplayCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+DisplayCornerRadius.swift"; sourceTree = "<group>"; };
+		C26028C72BDE7E6F00A6B398 /* AMNowPlayingAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMNowPlayingAnimationController.swift; sourceTree = "<group>"; };
+		C26028CA2BDE84A600A6B398 /* Array+FirstOfType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+FirstOfType.swift"; sourceTree = "<group>"; };
+		C26028CD2BDE872700A6B398 /* AMSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSong.swift; sourceTree = "<group>"; };
+		C26028D02BDEB66900A6B398 /* AMForYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMForYouView.swift; sourceTree = "<group>"; };
+		C2BA7BC72BE134F5009AECDF /* AMSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSliderView.swift; sourceTree = "<group>"; };
+		C2BA7BCA2BE1394D009AECDF /* AMControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMControlsView.swift; sourceTree = "<group>"; };
+		C2BA7BCD2BE1396A009AECDF /* AMControlsView+ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AMControlsView+ControlsView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2304EA62BE67C8B00784DB3 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C2304EA42BE67C8100784DB3 /* Foundation+Interpolate.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		C2304EA92BE67CA300784DB3 /* Comparable */ = {
+			isa = PBXGroup;
+			children = (
+				C2304EA72BE67C9900784DB3 /* Comparable+ClampedTo.swift */,
+			);
+			path = Comparable;
+			sourceTree = "<group>";
+		};
+		C2304EAA2BE67CD800784DB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C260287E2BDE3ED600A6B398 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C26028642BDE3ED500A6B398 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +124,285 @@
 		C260286F2BDE3ED500A6B398 /* Apple-Music-UI-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C26028702BDE3ED500A6B398 /* AppDelegate.swift */,
-				C26028722BDE3ED500A6B398 /* SceneDelegate.swift */,
-				C26028742BDE3ED500A6B398 /* ViewController.swift */,
-				C26028762BDE3ED500A6B398 /* Main.storyboard */,
-				C26028792BDE3ED600A6B398 /* Assets.xcassets */,
-				C260287B2BDE3ED600A6B398 /* LaunchScreen.storyboard */,
-				C260287E2BDE3ED600A6B398 /* Info.plist */,
+				C26028862BDE420200A6B398 /* Base */,
+				C26028972BDE43FF00A6B398 /* Views */,
+				C26028892BDE421500A6B398 /* Controllers */,
+				C260288D2BDE425500A6B398 /* Resources */,
+				C2304EAA2BE67CD800784DB3 /* Supporting Files */,
 			);
 			path = "Apple-Music-UI-Demo";
+			sourceTree = "<group>";
+		};
+		C26028862BDE420200A6B398 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C26028872BDE420600A6B398 /* AMAppDelegate */,
+				C26028882BDE420E00A6B398 /* AMSceneDelegate */,
+				C26028CF2BDE872A00A6B398 /* AMSong */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C26028872BDE420600A6B398 /* AMAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C26028702BDE3ED500A6B398 /* AMAppDelegate.swift */,
+			);
+			path = AMAppDelegate;
+			sourceTree = "<group>";
+		};
+		C26028882BDE420E00A6B398 /* AMSceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C26028722BDE3ED500A6B398 /* AMSceneDelegate.swift */,
+			);
+			path = AMSceneDelegate;
+			sourceTree = "<group>";
+		};
+		C26028892BDE421500A6B398 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C92BDE7E7D00A6B398 /* AMNowPlayingAnimationController */,
+				C26028B72BDE714000A6B398 /* AMNowPlayingViewController */,
+				C260288A2BDE421C00A6B398 /* AMTabBarController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C260288A2BDE421C00A6B398 /* AMTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C26028842BDE3EEF00A6B398 /* AMTabBarController.swift */,
+				C260288B2BDE423300A6B398 /* AMTabBarController+Tab.swift */,
+			);
+			path = AMTabBarController;
+			sourceTree = "<group>";
+		};
+		C260288D2BDE425500A6B398 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C260288E2BDE425900A6B398 /* Assets */,
+				C26028932BDE427B00A6B398 /* Extensions */,
+				C26028B42BDE6E8900A6B398 /* Protocols */,
+				C260288F2BDE425F00A6B398 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C260288E2BDE425900A6B398 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C26028792BDE3ED600A6B398 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C260288F2BDE425F00A6B398 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C260287B2BDE3ED600A6B398 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C26028922BDE427600A6B398 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C26028902BDE427400A6B398 /* UIImages+Images.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C26028932BDE427B00A6B398 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C26028CC2BDE84B200A6B398 /* Array */,
+				C2304EA92BE67CA300784DB3 /* Comparable */,
+				C2304EA62BE67C8B00784DB3 /* Foundation */,
+				C26028A62BDE49C000A6B398 /* UIBlurEffect */,
+				C26028B02BDE6D2800A6B398 /* UIButton */,
+				C26028922BDE427600A6B398 /* UIImage */,
+				C26028C62BDE7E6500A6B398 /* UIScreen */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C26028962BDE43F900A6B398 /* AMHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028942BDE43F500A6B398 /* AMHomeView.swift */,
+			);
+			path = AMHomeView;
+			sourceTree = "<group>";
+		};
+		C26028972BDE43FF00A6B398 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C02BDE790900A6B398 /* AMArtworkView */,
+				C2BA7BCC2BE13961009AECDF /* AMControlsView */,
+				C26028D22BDEB66C00A6B398 /* AMForYouView */,
+				C26028BA2BDE74B600A6B398 /* AMGradientView */,
+				C26028BD2BDE760900A6B398 /* AMGripView */,
+				C26028962BDE43F900A6B398 /* AMHomeView */,
+				C2BA7BC92BE134F8009AECDF /* AMSliderView */,
+				C26028A92BDE49D400A6B398 /* AMTabBarBackdropView */,
+				C26028AC2BDE67DC00A6B398 /* AMToolbarView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C26028A62BDE49C000A6B398 /* UIBlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C26028A42BDE49B100A6B398 /* UIBlurEffect+VariableBlurEffect.swift */,
+			);
+			path = UIBlurEffect;
+			sourceTree = "<group>";
+		};
+		C26028A92BDE49D400A6B398 /* AMTabBarBackdropView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028A72BDE49CE00A6B398 /* AMTabBarBackdropView.swift */,
+			);
+			path = AMTabBarBackdropView;
+			sourceTree = "<group>";
+		};
+		C26028AC2BDE67DC00A6B398 /* AMToolbarView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028AA2BDE67DA00A6B398 /* AMToolbarView.swift */,
+			);
+			path = AMToolbarView;
+			sourceTree = "<group>";
+		};
+		C26028AF2BDE6D2200A6B398 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C26028AD2BDE6D1400A6B398 /* UIButton.Configuration+Toolbar.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C26028B02BDE6D2800A6B398 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C26028AF2BDE6D2200A6B398 /* Configuration */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C26028B32BDE6E8500A6B398 /* AMToolbarViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C26028B12BDE6E8300A6B398 /* AMToolbarViewDelegate.swift */,
+			);
+			path = AMToolbarViewDelegate;
+			sourceTree = "<group>";
+		};
+		C26028B42BDE6E8900A6B398 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C32BDE7D0500A6B398 /* AMNowPlayingViewControllerDelegate */,
+				C26028B32BDE6E8500A6B398 /* AMToolbarViewDelegate */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C26028B72BDE714000A6B398 /* AMNowPlayingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C26028B52BDE713D00A6B398 /* AMNowPlayingViewController.swift */,
+			);
+			path = AMNowPlayingViewController;
+			sourceTree = "<group>";
+		};
+		C26028BA2BDE74B600A6B398 /* AMGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028B82BDE74B300A6B398 /* AMGradientView.swift */,
+			);
+			path = AMGradientView;
+			sourceTree = "<group>";
+		};
+		C26028BD2BDE760900A6B398 /* AMGripView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028BB2BDE760700A6B398 /* AMGripView.swift */,
+			);
+			path = AMGripView;
+			sourceTree = "<group>";
+		};
+		C26028C02BDE790900A6B398 /* AMArtworkView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028BE2BDE790600A6B398 /* AMArtworkView.swift */,
+			);
+			path = AMArtworkView;
+			sourceTree = "<group>";
+		};
+		C26028C32BDE7D0500A6B398 /* AMNowPlayingViewControllerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C12BDE7D0300A6B398 /* AMNowPlayingViewControllerDelegate.swift */,
+			);
+			path = AMNowPlayingViewControllerDelegate;
+			sourceTree = "<group>";
+		};
+		C26028C62BDE7E6500A6B398 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C42BDE7E5900A6B398 /* UIScreen+DisplayCornerRadius.swift */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		C26028C92BDE7E7D00A6B398 /* AMNowPlayingAnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				C26028C72BDE7E6F00A6B398 /* AMNowPlayingAnimationController.swift */,
+			);
+			path = AMNowPlayingAnimationController;
+			sourceTree = "<group>";
+		};
+		C26028CC2BDE84B200A6B398 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C26028CA2BDE84A600A6B398 /* Array+FirstOfType.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		C26028CF2BDE872A00A6B398 /* AMSong */ = {
+			isa = PBXGroup;
+			children = (
+				C26028CD2BDE872700A6B398 /* AMSong.swift */,
+			);
+			path = AMSong;
+			sourceTree = "<group>";
+		};
+		C26028D22BDEB66C00A6B398 /* AMForYouView */ = {
+			isa = PBXGroup;
+			children = (
+				C26028D02BDEB66900A6B398 /* AMForYouView.swift */,
+			);
+			path = AMForYouView;
+			sourceTree = "<group>";
+		};
+		C2BA7BC92BE134F8009AECDF /* AMSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				C2BA7BC72BE134F5009AECDF /* AMSliderView.swift */,
+			);
+			path = AMSliderView;
+			sourceTree = "<group>";
+		};
+		C2BA7BCC2BE13961009AECDF /* AMControlsView */ = {
+			isa = PBXGroup;
+			children = (
+				C2BA7BCA2BE1394D009AECDF /* AMControlsView.swift */,
+				C2BA7BCD2BE1396A009AECDF /* AMControlsView+ControlsView.swift */,
+			);
+			path = AMControlsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +465,6 @@
 			files = (
 				C260287D2BDE3ED600A6B398 /* LaunchScreen.storyboard in Resources */,
 				C260287A2BDE3ED600A6B398 /* Assets.xcassets in Resources */,
-				C26028782BDE3ED500A6B398 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +475,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26028752BDE3ED500A6B398 /* ViewController.swift in Sources */,
-				C26028712BDE3ED500A6B398 /* AppDelegate.swift in Sources */,
-				C26028732BDE3ED500A6B398 /* SceneDelegate.swift in Sources */,
+				C26028B62BDE713D00A6B398 /* AMNowPlayingViewController.swift in Sources */,
+				C26028A52BDE49B100A6B398 /* UIBlurEffect+VariableBlurEffect.swift in Sources */,
+				C26028852BDE3EEF00A6B398 /* AMTabBarController.swift in Sources */,
+				C26028712BDE3ED500A6B398 /* AMAppDelegate.swift in Sources */,
+				C26028CB2BDE84A600A6B398 /* Array+FirstOfType.swift in Sources */,
+				C26028732BDE3ED500A6B398 /* AMSceneDelegate.swift in Sources */,
+				C26028AB2BDE67DA00A6B398 /* AMToolbarView.swift in Sources */,
+				C2304EA82BE67C9900784DB3 /* Comparable+ClampedTo.swift in Sources */,
+				C26028952BDE43F500A6B398 /* AMHomeView.swift in Sources */,
+				C2BA7BC82BE134F5009AECDF /* AMSliderView.swift in Sources */,
+				C26028BC2BDE760700A6B398 /* AMGripView.swift in Sources */,
+				C26028CE2BDE872700A6B398 /* AMSong.swift in Sources */,
+				C26028AE2BDE6D1400A6B398 /* UIButton.Configuration+Toolbar.swift in Sources */,
+				C2BA7BCB2BE1394D009AECDF /* AMControlsView.swift in Sources */,
+				C26028C82BDE7E6F00A6B398 /* AMNowPlayingAnimationController.swift in Sources */,
+				C2BA7BCE2BE1396A009AECDF /* AMControlsView+ControlsView.swift in Sources */,
+				C2304EA52BE67C8100784DB3 /* Foundation+Interpolate.swift in Sources */,
+				C26028C52BDE7E5900A6B398 /* UIScreen+DisplayCornerRadius.swift in Sources */,
+				C26028D12BDEB66900A6B398 /* AMForYouView.swift in Sources */,
+				C26028A82BDE49CE00A6B398 /* AMTabBarBackdropView.swift in Sources */,
+				C26028B92BDE74B300A6B398 /* AMGradientView.swift in Sources */,
+				C260288C2BDE423300A6B398 /* AMTabBarController+Tab.swift in Sources */,
+				C26028C22BDE7D0300A6B398 /* AMNowPlayingViewControllerDelegate.swift in Sources */,
+				C26028B22BDE6E8300A6B398 /* AMToolbarViewDelegate.swift in Sources */,
+				C26028912BDE427400A6B398 /* UIImages+Images.swift in Sources */,
+				C26028BF2BDE790600A6B398 /* AMArtworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C26028762BDE3ED500A6B398 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C26028772BDE3ED500A6B398 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C260287B2BDE3ED600A6B398 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +646,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Apple-Music-UI-Demo/Info.plist";
+				INFOPLIST_FILE = "Apple-Music-UI-Demo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,12 +673,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY2GQFY855;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Apple-Music-UI-Demo/Info.plist";
+				INFOPLIST_FILE = "Apple-Music-UI-Demo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
