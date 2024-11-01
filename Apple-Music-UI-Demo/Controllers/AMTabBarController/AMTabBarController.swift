@@ -13,7 +13,7 @@ class AMTabBarController: UITabBarController, AMToolbarViewDelegate, AMNowPlayin
     private var backdropView: AMTabBarBackdropView!
     
     // MARK: - init(nibName:bundle:)
-    override init(nibName: String?, bundle: Bundle?) {
+    override init(nibName: String? = nil, bundle: Bundle? = nil) {
         super.init(nibName: nibName, bundle: bundle)
         setupTabBarItems()
         setupTabBarAppearance()
